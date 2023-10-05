@@ -1,8 +1,43 @@
-p{
-    font-family: 'Quicksand', sans-serif;
+video {
+
+    object-fit: cover;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: -1;
+
+    filter: brightness(70%);
+
 }
 
-.text-white{
+.bg-dark {
+    margin-top: 30px;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(24, 11, 3);
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.fs-5 {
+    color: rgb(231, 188, 172);
+}
+
+.text-white {
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
 }
@@ -31,18 +66,33 @@ p{
     text-align: left;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.ingr{
+.ingr {
     margin-top: 10px;
     color: rgb(48, 1, 1);
     font-weight: bold;
 }
 
-.new-coffee{
+.new-coffee {
     height: 60px;
+}
+
+.footer {
+    background-image: linear-gradient(0deg, rgba(174, 92, 38, 0.432) 100%, rgba(255, 249, 238, 0.921) 20%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_disclaimer {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+
 }
