@@ -1,10 +1,11 @@
 let hotCoffee = document.querySelector(".hot-coffee")
 
-let coffeeTitle = document.querySelector(".display-5")
+let newCoffee = document.querySelector(".new-coffee")
 
-let ingridients = document.querySelector(".btn-lg")
+let coffeeTitle = document.querySelector(".display-8")
 
 hotCoffee.addEventListener("click", getRandomCoffeeID)
+newCoffee.addEventListener("click", getRandomCoffeeID)
 
 
 async function getRandomCoffeeID() {
@@ -41,27 +42,19 @@ async function getRandomCoffeeID() {
       document.querySelector(".first-text").style.display = "none"
       document.querySelector(".bg-body-tertiary").style.display = "block"
       document.querySelector(".coffee-image").src = randomCoffeeImage
-      hotCoffee.innerHTML = "NEW coffee"
-
+      hotCoffee.style.display = 'none'
       
-      
-
-      // Add a click event listener to the "Show Ingredients" button
-      showIngredientsButton.addEventListener('click', () => {
-          // Render the list of ingredients
-          const coffeeIngredientsList = document.getElementById('coffeeIngredients');
-          coffeeIngredientsList.innerHTML = '';
+             
+          const coffeeIngredientsList = document.getElementById('coffeeIngredients')
+          coffeeIngredientsList.innerHTML = ''
 
           coffeeIngredients.forEach(ingredient => {
               const listItem = document.createElement('li');
               listItem.textContent = ingredient;
               coffeeIngredientsList.appendChild(listItem);
-          });
-
-          // Display the list of ingredients
-          coffeeIngredientsList.style.display = 'block';
-      });
-
+          
+             coffeeIngredientsList.style.display = 'block';
+      })
 
 
      
