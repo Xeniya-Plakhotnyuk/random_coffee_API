@@ -1,22 +1,48 @@
+p{
+    font-family: 'Quicksand', sans-serif;
+}
 
+.text-white{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
 
-
-.bg-body-tertiary{
+.bg-body-tertiary {
     display: none;
     border-radius: 21px 21px 0 0;
 }
 
-.btn-lg{
+.btn-lg {
     margin: 20px 0;
 }
 
-.hot-coffee{
+.hot-coffee {
     margin: 20px 0;
-      }
+}
 
-    .coffee-image{
- width: 80%;
- height: 300px;
- border-radius: 21px 21px 0 0;
- align-self: center;
-      }
+.coffee-image {
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px 0 0;
+    align-self: center;
+}
+
+#coffeeIngredients {
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ingr{
+    margin-top: 10px;
+    color: rgb(48, 1, 1);
+    font-weight: bold;
+}
+
+.new-coffee{
+    height: 60px;
+}
