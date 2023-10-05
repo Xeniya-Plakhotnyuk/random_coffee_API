@@ -1,0 +1,22 @@
+
+
+
+.bg-body-tertiary{
+    display: none;
+    border-radius: 21px 21px 0 0;
+}
+
+.btn-lg{
+    margin: 20px 0;
+}
+
+.hot-coffee{
+    margin: 20px 0;
+      }
+
+    .coffee-image{
+ width: 80%;
+ height: 300px;
+ border-radius: 21px 21px 0 0;
+ align-self: center;
+      }
