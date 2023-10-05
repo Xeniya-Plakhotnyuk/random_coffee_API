@@ -26,7 +26,9 @@ Enjoy your coffee adventure and discover new flavors!
 [Random Coffee API](https://sampleapis.com/api-list/coffee) - Provides random coffee suggestions with details.
 
 ## Screenshots
-![coffee1](https://github.com/Xeniya-Plakhotnyuk/random_coffee_API/assets/107706284/7ab09e0c-1cb1-4890-b13a-4695a32338d5)
+
+[![Coffee1](https://github.com/Xeniya-Plakhotnyuk/random_coffee_API/assets/107706284/7ab09e0c-1cb1-4890-b13a-4695a32338d5 "Coffee1")](https://github.com/Xeniya-Plakhotnyuk/random_coffee_API/assets/107706284/7ab09e0c-1cb1-4890-b13a-4695a32338d5 "Coffee1")
+
 ![coffee2](https://github.com/Xeniya-Plakhotnyuk/random_coffee_API/assets/107706284/15d2922b-2da3-4472-bac4-74170fbdf803)
 
 
